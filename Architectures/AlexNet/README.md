@@ -16,7 +16,7 @@ The major contributions of the paper include:
 ## Architecture Scheme
 Below is a schematic representation of the architecture:
 
-![Architecture Scheme](https://www.notion.so/gvdmnni/AlexNet-caa1c8a968a54179a1da454ff764cb5e?pvs=4#b6a576d6147f400b849e3b800b3686fe)
+![Architecture Scheme](https://github.com/GuidoManni/DeepLearningImplementation/blob/main/Architectures/AlexNet/src/AlexNet.png)
 
 ## Reproduced Results
 The following results were reproduced as per the methodology described in the paper:
