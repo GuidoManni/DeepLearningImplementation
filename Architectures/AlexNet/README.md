@@ -19,33 +19,12 @@ Below is a schematic representation of the architecture:
 
 ![Architecture Scheme](https://github.com/GuidoManni/DeepLearningImplementation/blob/main/Architectures/AlexNet/src/AlexNet.png)
 
-## Reproduced Results
+## Reproduced Results (TBD)
 The following results were reproduced as per the methodology described in the paper:
 - Result 1: [Description and value]
 - Result 2: [Description and value]
 - Result 3: [Description and value]
 - ...
-
-## How to Run
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/GuidoManni/DeepLearningImplementation.git
-   cd DeepLearningImplementation/[Architecture Directory]
-    ```
-
-2. Install the required dependencies:
-    ```bash
-    pip install -r requirements.txt
-    ```
-
-3. Train the model:
-    ```bash
-    python train.py
-    ```
-4. Evaluate the model:
-    ```bash
-    python evaluate.py
-    ```
 
 ## References
 - [Original Paper](https://papers.nips.cc/paper/4824-imagenet-classification-with-deep-convolutional-neural-networks)
