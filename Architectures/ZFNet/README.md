@@ -18,7 +18,7 @@ The major contributions of the paper include:
 ## Architecture Scheme
 Below is a schematic representation of the architecture:
 
-![Architecture Scheme](https://github.com/GuidoManni/DeepLearningImplementation/blob/main/Architectures/AlexNet/src/AlexNet.png)
+![Architecture Scheme](https://github.com/GuidoManni/DeepLearningImplementation/blob/main/Architectures/ZFNet/src/ZFNet.png)
 
 ## Reproduced Results (TBD)
 The following results were reproduced as per the methodology described in the paper:
