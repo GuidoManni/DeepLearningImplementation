@@ -6,7 +6,7 @@ This repository is dedicated to the implementation of various seminal deep learn
 ## Contents
 
 ### Architectures
-- [AlexNet](https://papers.nips.cc/paper/4824-imagenet-classification-with-deep-convolutional-neural-networks) [ ]
+- [AlexNet](https://papers.nips.cc/paper/4824-imagenet-classification-with-deep-convolutional-neural-networks) [✅]
 - [ZFNet](https://arxiv.org/abs/1311.2901) - [ ]
 - [VGG16](https://arxiv.org/abs/1505.06798) - [ ]
 - [ResNet](https://arxiv.org/abs/1704.06904) - [ ]
@@ -14,6 +14,9 @@ This repository is dedicated to the implementation of various seminal deep learn
 - [Inception](https://arxiv.org/abs/1512.00567) - [ ]
 - [Xception](https://arxiv.org/abs/1610.02357) - [ ]
 - [MobileNet](https://arxiv.org/abs/1704.04861) - [ ]
+- [VisionTransformer](https://arxiv.org/pdf/2010.11929) - [ ]
+- [SwinTransformer](https://arxiv.org/pdf/2103.14030) - [ ]
+- [VisionLSTM](https://arxiv.org/pdf/2406.04303) - [ ]
 
 ### Semantic Segmentation
 - [FCN](https://arxiv.org/abs/1411.4038) - [ ]
@@ -30,6 +33,9 @@ This repository is dedicated to the implementation of various seminal deep learn
 - [WGAN](https://arxiv.org/abs/1701.07875) - [ ]
 - [Pix2Pix](https://arxiv.org/abs/1611.07004) - [ ]
 - [CycleGAN](https://arxiv.org/abs/1703.10593) - [ ]
+
+### Autoregressive Generative Networks
+- [PixelRNN](https://arxiv.org/pdf/1601.06759) - [ ]
 
 ### Object Detection
 - [RCNN](https://arxiv.org/abs/1311.2524) - [ ]
