@@ -1,4 +1,4 @@
-# [Architecture Name]
+# [AlexNet]
 
 ## Overview
 This repository contains the implementation of AlexNet. Below you will find detailed information and resources related to this architecture.
