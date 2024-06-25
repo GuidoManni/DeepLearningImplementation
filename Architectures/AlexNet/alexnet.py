@@ -60,8 +60,7 @@ class AlexNet(nn.Module):
         return x
 
 if __name__ == '__main__':
-    if torch.cuda.is_available():
-        device = 'cuda'
+    device = 'cuda' if torch.cuda.is_available() else 'cpu'
     model = AlexNet().to(device)
     x = torch.randn(1, 3, 224, 224, device=device)
     summary(model, (3, 224, 224))
