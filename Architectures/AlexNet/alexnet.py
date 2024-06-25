@@ -38,18 +38,34 @@ class AlexNet(nn.Module):
             nn.MaxPool2d(kernel_size=3, stride=2)
         )
 
+        # Dense Layer
+        self.output = nn.Sequential(
+            nn.Linear(128 * 2 * 2, 2048),
+            nn.ReLU(),
+            nn.Dropout(0.5),
+            nn.Linear(2048, 2048),
+            nn.ReLU(),
+            nn.Dropout(0.5),
+            nn.Linear(2048, 1000)
+        )
+
     def forward(self, x):
         x = self.conv1(x)
         x = self.conv2(x)
         x = self.conv3(x)
         x = self.conv4(x)
         x = self.conv5(x)
+        x = torch.reshape(x, (x.shape[0], 128 * 2 * 2)) # reshaping the tensor for the dense layer
+        x = self.output(x)
         return x
 
 if __name__ == '__main__':
-    model = AlexNet()
-    x = torch.randn(1, 3, 224, 224)
+    if torch.cuda.is_available():
+        device = 'cuda'
+    model = AlexNet().to(device)
+    x = torch.randn(1, 3, 224, 224, device=device)
     summary(model, (3, 224, 224))
+    print(model(x).shape)
 
 
 
