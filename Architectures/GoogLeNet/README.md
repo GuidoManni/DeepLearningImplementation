@@ -21,7 +21,7 @@ Below is a schematic representation of the architecture:
 *Figure: Inception Architecture from Szegedy, C., Liu, W., Jia, Y., Sermanet, P., Reed, S., Anguelov, D., ... & Rabinovich, A. (2015). Going deeper with convolutions. In Proceedings of the IEEE conference on computer vision and pattern recognition (pp. 1-9).*
 
 And a schematic representation of the Inception module:
-![Inception Module]()
+![Inception Module](https://github.com/GuidoManni/DeepLearningImplementation/blob/main/Architectures/GoogLeNet/src/Inception%20Module%20Optimized.png)
 
 ## Reproduced Results (TBD)
 The following results were reproduced as per the methodology described in the paper:
