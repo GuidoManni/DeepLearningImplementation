@@ -8,7 +8,7 @@ This repository is dedicated to the implementation of various seminal deep learn
 ### Architectures
 - [AlexNet [2012]](https://papers.nips.cc/paper/4824-imagenet-classification-with-deep-convolutional-neural-networks) - [✅]
 - [ZFNet [2013]](https://arxiv.org/abs/1311.2901) - [✅]
-- [GoogLeNet [2014]](https://arxiv.org/abs/1409.4842) - [ ]
+- [GoogLeNet [2014]](https://arxiv.org/abs/1409.4842) - [✅]
 - [VGG16 [2015]](https://arxiv.org/pdf/1409.1556) - [ ]
 - [ResNet [2015]](https://arxiv.org/pdf/1512.03385) - [ ]
 - [Rethinked Inception [2015]](https://arxiv.org/abs/1512.00567) - [ ]
