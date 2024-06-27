@@ -40,6 +40,7 @@ class AlexNet(nn.Module):
 
         # Dense Layer
         self.output = nn.Sequential(
+            nn.Flatten(),
             nn.Linear(128 * 2 * 2, 2048),
             nn.ReLU(),
             nn.Dropout(0.5),
@@ -55,7 +56,6 @@ class AlexNet(nn.Module):
         x = self.conv3(x)
         x = self.conv4(x)
         x = self.conv5(x)
-        x = torch.reshape(x, (x.shape[0], 128 * 2 * 2)) # reshaping the tensor for the dense layer
         x = self.output(x)
         return x
 
