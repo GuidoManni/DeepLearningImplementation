@@ -4,7 +4,7 @@ from torchsummary import summary
 
 
 class ZFNet(nn.Module):
-    def __init__(self):
+    def __init__(self, num_classes=1000):
         super(ZFNet, self).__init__()
         # First Convolutional Layer
         self.conv1 = nn.Sequential(
@@ -61,7 +61,8 @@ class ZFNet(nn.Module):
 
 if __name__ == '__main__':
     device = 'cuda' if torch.cuda.is_available() else 'cpu'
-    model = ZFNet().to(device)
+    n_classes = 1000
+    model = ZFNet(n_classes).to(device)
     x = torch.randn(1, 3, 224, 224, device=device)
     summary(model, (3, 224, 224))
     print(model(x).shape)
