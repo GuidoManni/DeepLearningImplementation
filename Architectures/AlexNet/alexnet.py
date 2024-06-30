@@ -4,7 +4,7 @@ from torchsummary import summary
 
 
 class AlexNet(nn.Module):
-    def __init__(self):
+    def __init__(self, num_classes=1000):
         super(AlexNet, self).__init__()
 
         # First Convolutional Layer
@@ -47,7 +47,7 @@ class AlexNet(nn.Module):
             nn.Linear(2048, 2048),
             nn.ReLU(),
             nn.Dropout(0.5),
-            nn.Linear(2048, 1000)
+            nn.Linear(2048, num_classes)
         )
 
     def forward(self, x):
@@ -61,7 +61,8 @@ class AlexNet(nn.Module):
 
 if __name__ == '__main__':
     device = 'cuda' if torch.cuda.is_available() else 'cpu'
-    model = AlexNet().to(device)
+    n_classes = 1000
+    model = AlexNet(n_classes).to(device)
     x = torch.randn(1, 3, 224, 224, device=device)
     summary(model, (3, 224, 224))
     print(model(x).shape)
