@@ -28,7 +28,7 @@ Click on the checkmarks to go to project directories.
 - [GoogLeNet [2014]](https://arxiv.org/abs/1409.4842) - [✅](./Architectures/GoogLeNet)
 - [VGG16 [2015]](https://arxiv.org/pdf/1409.1556) - [✅](./Architectures/VGG16)
 - [ResNet [2015]](https://arxiv.org/pdf/1512.03385) - [✅](./Architectures/ResNet)
-- [Rethinked Inception [2015]](https://arxiv.org/abs/1512.00567) - [ ]
+- [Rethinked Inception [2015]](https://arxiv.org/abs/1512.00567) - [✅](./Architectures/Rethinked%20Inception)
 - [DenseNet [2016]](https://arxiv.org/abs/1608.06993)
 - [Xception [2016]](https://arxiv.org/abs/1610.02357) - [ ]
 - [SqueezeNet [2016]](https://arxiv.org/abs/1602.07360) - [ ]
