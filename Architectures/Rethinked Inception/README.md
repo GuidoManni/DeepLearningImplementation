@@ -16,19 +16,14 @@ The major contributions of the paper include:
 
 
 ## Architecture Scheme
-Below is a schematic representation of the architecture:
-
-![Architecture Scheme](https://github.com/GuidoManni/DeepLearningImplementation/blob/main/Architectures/InceptionV2/V3/src/InceptionV3.png)
-*Figure: Inception Architecture from Szegedy, C., Liu, W., Jia, Y., Sermanet, P., Reed, S., Anguelov, D., ... & Rabinovich, A. (2015). Going deeper with convolutions. In Proceedings of the IEEE conference on computer vision and pattern recognition (pp. 1-9).*
-
-And a schematic representation of the Inception modules that are used in the architecture:
-![Inception Module](https://github.com/GuidoManni/DeepLearningImplementation/blob/main/Architectures/Rethinked%Inception/src/Improved%Inception%Module.png)
+Below a schematic representation of the Inception modules that are used in the architecture:
+![Inception Module](https://github.com/GuidoManni/DeepLearningImplementation/blob/main/Architectures/Rethinked%20Inception/src/Improved%20Inception%20Module.png)
 *Figure: Inception modules with factorized convolutions. The original 5x5 convolutional filter has been replaced with two consecutive 3x3 convolutional filters, reducing computational cost while maintaining the effective receptive field.*
 
-![Inception Module](https://github.com/GuidoManni/DeepLearningImplementation/blob/main/Architectures/Rethinked%Inception/src/Improved%Inception%Module%with%more%factorization.png)
+![Inception Module](https://github.com/GuidoManni/DeepLearningImplementation/blob/main/Architectures/Rethinked%20Inception/src/Improved%20Inception%20Module%20with%20more%20factorization.png)
 *Figure: Inception modules after the factorization of the nxn convolutions.*
 
-![Inception Module](https://github.com/GuidoManni/DeepLearningImplementation/blob/main/Architectures/Rethinked%Inception/src/Inception%Module%with%expanded%filter%bank.png)
+![Inception Module](https://github.com/GuidoManni/DeepLearningImplementation/blob/main/Architectures/Rethinked%20Inception/src/Inception%20Module%20with%20expanded%20filter%20bank.png)
 *Figure: Inception modules with expanded filter bank outputs to promote high dimensional representations.*
 
 
