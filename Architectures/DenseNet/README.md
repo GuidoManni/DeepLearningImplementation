@@ -18,7 +18,8 @@ The major contributions of the paper include:
 Below a schematic representation of the modules that are used in the architecture:
 ![Inception Module](./src/Dense_Block.png)*Dense Block with bottleneck*
 
-![Inception Module](./src/DenseNet_Transition_block.png)*Transition Block*
+![Inception Module](./src/DenseNet_Transition_block.png)
+*Transition Block*
 
 
 
