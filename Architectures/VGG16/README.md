@@ -17,7 +17,7 @@ The major contributions of the paper include:
 ## Architecture Scheme
 Below is a schematic representation of the architecture:
 
-![Architecture Scheme](https://github.com/GuidoManni/DeepLearningImplementation/blob/main/Architectures/VGG16/src/VGG16.png)
+![Architecture Scheme](./src/VGG16.png)
 
 
 ## Reproduced Results (TBD)

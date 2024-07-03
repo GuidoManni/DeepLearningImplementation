@@ -17,7 +17,7 @@ The major contributions of the paper include:
 
 ## Architecture Scheme
 Below a schematic representation of the Inception modules that are used in the architecture:
-![Inception Module](https://github.com/GuidoManni/DeepLearningImplementation/blob/main/Architectures/Rethinked%20Inception/src/Improved%20Inception%20Module.png)
+![Inception Module](./src/InceptionV3.png)
 *Figure: Inception modules with factorized convolutions. The original 5x5 convolutional filter has been replaced with two consecutive 3x3 convolutional filters, reducing computational cost while maintaining the effective receptive field.*
 
 ![Inception Module](https://github.com/GuidoManni/DeepLearningImplementation/blob/main/Architectures/Rethinked%20Inception/src/Improved%20Inception%20Module%20with%20more%20factorization.png)
