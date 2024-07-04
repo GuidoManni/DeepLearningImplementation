@@ -31,7 +31,7 @@ Click on the checkmarks to go to project directories.
 - [Rethinked Inception [2015]](https://arxiv.org/abs/1512.00567) - [✅](./Architectures/Rethinked%20Inception)
 - [DenseNet [2016]](https://arxiv.org/abs/1608.06993)- [✅](./Architectures/DenseNet)
 - [Xception [2016]](https://arxiv.org/abs/1610.02357) - [✅](./Architectures/Xception)
-- [SqueezeNet [2016]](https://arxiv.org/abs/1602.07360) - [ ]
+- [SqueezeNet [2016]](https://arxiv.org/abs/1602.07360) - [✅](./Architectures/SqueezeNet)
 - [MobileNet [2017]](https://arxiv.org/abs/1704.04861) - [ ]
 - [Residual Attention Network [2017]](https://arxiv.org/abs/1704.06904) - [ ]
 - [EfficientNet [2019]](https://arxiv.org/abs/1905.11946) - [ ]
