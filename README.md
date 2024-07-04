@@ -33,12 +33,14 @@ Click on the checkmarks to go to project directories.
 - [Xception [2016]](https://arxiv.org/abs/1610.02357) - [✅](./Architectures/Xception)
 - [SqueezeNet [2016]](https://arxiv.org/abs/1602.07360) - [✅](./Architectures/SqueezeNet)
 - [MobileNet [2017]](https://arxiv.org/abs/1704.04861) - [ ]
+- [ShuffleNet [2017]](https://arxiv.org/abs/1707.01083) - [ ]
 - [Residual Attention Network [2017]](https://arxiv.org/abs/1704.06904) - [ ]
 - [EfficientNet [2019]](https://arxiv.org/abs/1905.11946) - [ ]
 - [RegNet [2020]](https://arxiv.org/abs/2003.13678) - [ ]
 - [ConvNet [2020]](https://arxiv.org/abs/2001.06268) - [ ]
 - [VisionTransformer [2020]](https://arxiv.org/pdf/2010.11929) - [ ]
 - [SwinTransformer [2021]](https://arxiv.org/pdf/2103.14030) - [ ]
+- [MaxViT [2022]](https://arxiv.org/pdf/2204.01697) - [ 
 - [VisionLSTM [2024]](https://arxiv.org/pdf/2406.04303) - [ ]
 
 ### Semantic Segmentation
@@ -48,14 +50,28 @@ Click on the checkmarks to go to project directories.
 - [PSPNet [2016]](https://arxiv.org/abs/1612.01105) - [ ]
 - [DeepLab [2016]](https://arxiv.org/abs/1606.00915) - [ ]
 - [ENet [2016]](https://arxiv.org/abs/1606.02147) - [ ]
+- [Mask R-CNN [2017]](https://arxiv.org/abs/1703.06870) - []
+- [DeepLabV3 [2017]](https://arxiv.org/abs/1706.05587) - [ ]
 - [ICNet [2018]](https://arxiv.org/abs/1704.08545) - [ ]
+- [HRNet [2019]](https://arxiv.org/abs/1904.04514) - [ ]
+- [OCRNet [2019]](https://arxiv.org/abs/1909.11065) - [ ]
+- [U-Net++ [2019]](https://arxiv.org/abs/1912.05074) - [ ]
+- [SegFormer [2021]](https://arxiv.org/abs/2105.15203) - [ ]
+- [Mask2Former [2022]](https://arxiv.org/abs/2204.01697) - [ ]
 
 ### Generative Adversarial Networks
-- [GAN](https://arxiv.org/abs/1406.2661) - [ ]
-- [DCGAN](https://arxiv.org/abs/1511.06434) - [ ]
-- [WGAN](https://arxiv.org/abs/1701.07875) - [ ]
-- [Pix2Pix](https://arxiv.org/abs/1611.07004) - [ ]
-- [CycleGAN](https://arxiv.org/abs/1703.10593) - [ ]
+- [GAN [2014]](https://arxiv.org/abs/1406.2661) - [ ]
+- [DCGAN [2015]](https://arxiv.org/abs/1511.06434) - [ ]
+- [InfoGAN [2016]](https://arxiv.org/abs/1606.03657) - [ ]
+- [Pix2Pix [2016]](https://arxiv.org/abs/1611.07004) - [ ]
+- [WGAN [2017]](https://arxiv.org/abs/1701.07875) - [ ]
+- [CycleGAN [2017]](https://arxiv.org/abs/1703.10593) - [ ]
+- [BigGAN [2018]](https://arxiv.org/abs/1809.11096) - [ ]
+- [StyleGAN [2018]](https://arxiv.org/abs/1812.04948) - [ ]
+- [StyleGAN2 [2019]](https://arxiv.org/abs/1912.04958) - [ ]
+
+### Diffusion Generative Models
+- [DDPM [2020]](https://arxiv.org/abs/2006.11239) - [ ]
 
 ### Autoregressive Generative Networks
 - [PixelRNN](https://arxiv.org/pdf/1601.06759) - [ ]
