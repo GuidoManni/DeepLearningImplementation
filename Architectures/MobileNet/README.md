@@ -8,12 +8,10 @@ For a comprehensive understanding of the paper and its contributions, please ref
 
 ## Major Contributions
 The major contributions of the paper include:
-- Introduction of design principles for efficiently scaling up CNNs, focusing on factorized convolutions and dimension reduction.
-- Development of Inception-v2 and Inception-v3 architectures, which significantly improve upon the original GoogLeNet design.
-- Proposal of label smoothing as a regularization technique to prevent the network from becoming too confident in its predictions.
-- Investigation of the impact of input resolution on network performance, showing that lower resolution inputs can still achieve competitive results when the network is properly adapted.
-- Achievement of state-of-the-art performance on the ILSVRC 2012 classification benchmark, with a substantial reduction in computational cost compared to other top-performing networks.
-
+1. Introduction of the MobileNet architecture, which uses depthwise separable convolutions as its core building block.
+2. Proposal of two hyperparameters - width multiplier and resolution multiplier - that allow for easy adjustment of the model size and computational requirements.
+3. Extensive experiments demonstrating the effectiveness of MobileNets across various tasks and applications, including image classification, object detection, and face attribute detection.
+4. Comparison with other popular models, showing that MobileNets can achieve comparable accuracy with significantly reduced computational cost and model size.
 
 ## Architecture Scheme
 Below a schematic representation of the MobileNet architecture:
