@@ -8,12 +8,11 @@ For a comprehensive understanding of the paper and its contributions, please ref
 
 ## Major Contributions
 The major contributions of the paper include:
-- Introduction of design principles for efficiently scaling up CNNs, focusing on factorized convolutions and dimension reduction.
-- Development of Inception-v2 and Inception-v3 architectures, which significantly improve upon the original GoogLeNet design.
-- Proposal of label smoothing as a regularization technique to prevent the network from becoming too confident in its predictions.
-- Investigation of the impact of input resolution on network performance, showing that lower resolution inputs can still achieve competitive results when the network is properly adapted.
-- Achievement of state-of-the-art performance on the ILSVRC 2012 classification benchmark, with a substantial reduction in computational cost compared to other top-performing networks.
-
+1. Introduction of architectural design strategies for creating small CNNs
+2. Presentation of the SqueezeNet architecture, which achieves AlexNet-level accuracy with 50x fewer parameters
+3. Demonstration that SqueezeNet can be compressed to 510x smaller than AlexNet while maintaining accuracy
+4. Exploration of the CNN microarchitecture design space, providing insights into the impact of various design choices on model size and accuracy
+5. Investigation of different CNN macroarchitecture configurations, including the use of bypass connections
 
 ## Architecture Scheme
 Below a schematic representation of the SqueezeNet architecture:
