@@ -1,7 +1,7 @@
-# [ResNext]
+# [ResNeXt]
 
 ## Overview
-This repository contains the implementation of ResNext. Below you will find detailed information and resources related to this architecture.
+This repository contains the implementation of ResNeXt. Below you will find detailed information and resources related to this architecture.
 
 ## Detailed Explanation
 For a comprehensive understanding of the paper and its contributions, please refer to the [detailed blog post](https://gvdmnni.notion.site/ResNext-05bd5cb9ae0a40fb811746f5a4331f65?pvs=4).
