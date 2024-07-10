@@ -94,7 +94,6 @@ Click on the checkmarks to go to project directories.
 
 ### 3D Reconstruction from 2D Images
 - [3D-R2N2 [2016]](https://arxiv.org/abs/1604.00449) - [ ]
-- [3D-EPN [2017]](https://arxiv.org/abs/1709.05502) - [ ] **
 - [3D-RecGAN [2017]](https://arxiv.org/abs/1708.07969) - [ ]
 - [3D-GAN [2017]](https://arxiv.org/abs/1707.09557) - [ ]
 - [3D-RecGAN++ [2018]](https://arxiv.org/abs/1802.00411) - [ ]
