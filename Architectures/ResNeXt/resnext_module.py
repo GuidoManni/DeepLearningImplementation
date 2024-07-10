@@ -41,6 +41,7 @@ class ResNextBlock(nn.Module):
             self.shortcut = nn.Sequential(
                 nn.Conv2d(in_channels, out_channels, kernel_size=1, stride=stride),
                 nn.BatchNorm2d(out_channels),
+                # we do not use the ReLU activation function in the shortcut because we want to preserve the information flow
             )
 
         self.relu = nn.ReLU(inplace=True)
