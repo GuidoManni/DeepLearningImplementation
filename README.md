@@ -61,6 +61,17 @@ Click on the checkmarks to go to project directories.
 - [SegFormer [2021]](https://arxiv.org/abs/2105.15203) - [ ]
 - [Mask2Former [2022]](https://arxiv.org/abs/2204.01697) - [ ]
 
+### Object Detection
+- [RCNN [2014]](https://arxiv.org/abs/1311.2524) - [ ]
+- [Fast-RCNN [2015]](https://arxiv.org/abs/1504.08083) - [ ]
+- [Faster-RCNN [2015]](https://arxiv.org/abs/1506.01497) - [ ]
+- [YOLO [2015]](https://arxiv.org/abs/1506.02640) - [ ]
+- [SSD [2016]](https://arxiv.org/abs/1512.02325) - [ ]
+- [YOLO9000 [2016]](https://arxiv.org/abs/1612.08242) - [ ]
+- [RetinaNet [2017]](https://arxiv.org/abs/1708.02002) - [ ]
+- [YOLOv3 [2018]](https://arxiv.org/abs/1804.02767) - [ ]
+- [YOLOv4 [2020]](https://arxiv.org/abs/2004.10934) - [ ]
+
 ### Generative Adversarial Networks
 - [GAN [2014]](https://arxiv.org/abs/1406.2661) - [ ]
 - [DCGAN [2015]](https://arxiv.org/abs/1511.06434) - [ ]
@@ -76,15 +87,18 @@ Click on the checkmarks to go to project directories.
 - [DDPM [2020]](https://arxiv.org/abs/2006.11239) - [ ]
 
 ### Autoregressive Generative Networks
-- [PixelRNN](https://arxiv.org/pdf/1601.06759) - [ ]
+- [PixelRNN [2016]](https://arxiv.org/pdf/1601.06759) - [ ]
+- [PixelCNN [2016]](https://arxiv.org/abs/1606.05328) - [ ]
+- [PixelSNAIL [2017]](https://arxiv.org/abs/1712.09763) - [ ]
 
-### Object Detection
-- [RCNN](https://arxiv.org/abs/1311.2524) - [ ]
-- [Fast-RCNN](https://arxiv.org/abs/1504.08083) - [ ]
-- [Faster-RCNN](https://arxiv.org/abs/1506.01497) - [ ]
-- [SSD](https://arxiv.org/abs/1512.02325) - [ ]
-- [YOLO](https://arxiv.org/abs/1506.02640) - [ ]
-- [YOLO9000](https://arxiv.org/abs/1612.08242) - [ ]
+
+### 3D Reconstruction from 2D Images
+- [3D-R2N2 [2016]](https://arxiv.org/abs/1604.00449) - [ ]
+- [3D-EPN [2017]](https://arxiv.org/abs/1709.05502) - [ ] **
+- [3D-RecGAN [2017]](https://arxiv.org/abs/1708.07969) - [ ]
+- [3D-GAN [2017]](https://arxiv.org/abs/1707.09557) - [ ]
+- [3D-RecGAN++ [2018]](https://arxiv.org/abs/1802.00411) - [ ]
+- [NeRF [2020]](https://arxiv.org/abs/2003.08934) - [ ]
 
 
 ## Project Phases
