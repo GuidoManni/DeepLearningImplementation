@@ -98,6 +98,9 @@ Click on the checkmarks to go to project directories.
 - [3D-RecGAN [2017]](https://arxiv.org/abs/1708.07969) - [ ]
 - [3D-GAN [2017]](https://arxiv.org/abs/1707.09557) - [ ]
 - [3D-RecGAN++ [2018]](https://arxiv.org/abs/1802.00411) - [ ]
+- [AtlasNet [2018]](https://arxiv.org/abs/1802.05384) - [ ]
+- [Occupancy Networks [2018]](https://arxiv.org/abs/1812.03828) - [ ]
+- [DeepSDF [2019]](https://arxiv.org/abs/1901.05103) - [ ]
 - [NeRF [2020]](https://arxiv.org/abs/2003.08934) - [ ]
 
 
