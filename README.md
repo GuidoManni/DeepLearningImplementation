@@ -33,7 +33,7 @@ Click on the checkmarks to go to project directories.
 - [Xception [2016]](https://arxiv.org/abs/1610.02357) - [✅](./Architectures/Xception)
 - [SqueezeNet [2016]](https://arxiv.org/abs/1602.07360) - [✅](./Architectures/SqueezeNet)
 - [ResNeXt [2016]](https://arxiv.org/abs/1611.05431) - [✅](./Architectures/ResNeXt)
-- [SENet [2017]](https://arxiv.org/abs/1709.01507) - [ ]
+- [SENet [2017]](https://arxiv.org/abs/1709.01507) - [✅](./Architectures/SENet)
 - [MobileNet [2017]](https://arxiv.org/abs/1704.04861) - [✅](./Architectures/MobileNet)
 - [ShuffleNet [2017]](https://arxiv.org/abs/1707.01083) - [ ]
 - [Residual Attention Network [2017]](https://arxiv.org/abs/1704.06904) - [ ]
