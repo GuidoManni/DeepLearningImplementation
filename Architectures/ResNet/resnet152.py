@@ -25,6 +25,10 @@ class ResNet152(nn.Module):
             ResidualBlock2(in_channels=512, out_channels1=128, out_channels2=512, stride=1),
             ResidualBlock2(in_channels=512, out_channels1=128, out_channels2=512, stride=1),
             ResidualBlock2(in_channels=512, out_channels1=128, out_channels2=512, stride=1),
+            ResidualBlock2(in_channels=512, out_channels1=128, out_channels2=512, stride=1),
+            ResidualBlock2(in_channels=512, out_channels1=128, out_channels2=512, stride=1),
+            ResidualBlock2(in_channels=512, out_channels1=128, out_channels2=512, stride=1),
+            ResidualBlock2(in_channels=512, out_channels1=128, out_channels2=512, stride=1),
         )
 
         layers = []

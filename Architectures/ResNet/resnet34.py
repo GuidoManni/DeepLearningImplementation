@@ -14,24 +14,32 @@ class ResNet34(nn.Module):
             nn.MaxPool2d(kernel_size=3, stride=2, padding=1)
         )
 
+        # repeat 3 times
         self.conv2_x = nn.Sequential(
             ResidualBlock1(in_channels=64, out_channels=64, stride=1),
             ResidualBlock1(in_channels=64, out_channels=64, stride=1),
             ResidualBlock1(in_channels=64, out_channels=128, stride=1),
         )
 
+        # repeat 4 times
         self.conv3_x = nn.Sequential(
             ResidualBlock1(in_channels=128, out_channels=128, stride=2),
+            ResidualBlock1(in_channels=128, out_channels=128, stride=1),
             ResidualBlock1(in_channels=128, out_channels=128, stride=1),
             ResidualBlock1(in_channels=128, out_channels=256, stride=1),
         )
 
+        # repeat 6 times
         self.conv4_x = nn.Sequential(
             ResidualBlock1(in_channels=256, out_channels=256, stride=2),
+            ResidualBlock1(in_channels=256, out_channels=256, stride=1),
+            ResidualBlock1(in_channels=256, out_channels=256, stride=1),
+            ResidualBlock1(in_channels=256, out_channels=256, stride=1),
             ResidualBlock1(in_channels=256, out_channels=256, stride=1),
             ResidualBlock1(in_channels=256, out_channels=512, stride=1),
         )
 
+        # repeat 3 times
         self.conv5_x = nn.Sequential(
             ResidualBlock1(in_channels=512, out_channels=512, stride=2),
             ResidualBlock1(in_channels=512, out_channels=512, stride=1),
