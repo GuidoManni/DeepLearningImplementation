@@ -35,7 +35,7 @@ Click on the checkmarks to go to project directories.
 - [ResNeXt [2016]](https://arxiv.org/abs/1611.05431) - [✅](./Architectures/ResNeXt)
 - [SENet [2017]](https://arxiv.org/abs/1709.01507) - [✅](./Architectures/SENet)
 - [MobileNet [2017]](https://arxiv.org/abs/1704.04861) - [✅](./Architectures/MobileNet)
-- [ShuffleNet [2017]](https://arxiv.org/abs/1707.01083) - [ ]
+- [ShuffleNet [2017]](https://arxiv.org/abs/1707.01083) - [✅](./Architectures/ShuffleNet)
 - [Residual Attention Network [2017]](https://arxiv.org/abs/1704.06904) - [ ]
 - [EfficientNet [2019]](https://arxiv.org/abs/1905.11946) - [ ]
 - [RegNet [2020]](https://arxiv.org/abs/2003.13678) - [ ]
