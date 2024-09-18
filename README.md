@@ -37,6 +37,7 @@ Click on the checkmarks to go to project directories.
 - [MobileNet [2017]](https://arxiv.org/abs/1704.04861) - [✅](./Architectures/MobileNet)
 - [ShuffleNet [2017]](https://arxiv.org/abs/1707.01083) - [✅](./Architectures/ShuffleNet)
 - [Residual Attention Network [2017]](https://arxiv.org/abs/1704.06904) - [✅](./Architectures/ResidualAttentionNetwork)
+- [MobileNetV2 [2018]](https://arxiv.org/abs/1801.04381) - []
 - [EfficientNet [2019]](https://arxiv.org/abs/1905.11946) - [ ]
 - [RegNet [2020]](https://arxiv.org/abs/2003.13678) - [ ]
 - [ConvNet [2020]](https://arxiv.org/abs/2001.06268) - [ ]
@@ -52,7 +53,7 @@ Click on the checkmarks to go to project directories.
 - [PSPNet [2016]](https://arxiv.org/abs/1612.01105) - [ ]
 - [DeepLab [2016]](https://arxiv.org/abs/1606.00915) - [ ]
 - [ENet [2016]](https://arxiv.org/abs/1606.02147) - [ ]
-- [Mask R-CNN [2017]](https://arxiv.org/abs/1703.06870) - []
+- [Mask R-CNN [2017]](https://arxiv.org/abs/1703.06870) - [ ]
 - [DeepLabV3 [2017]](https://arxiv.org/abs/1706.05587) - [ ]
 - [ICNet [2018]](https://arxiv.org/abs/1704.08545) - [ ]
 - [HRNet [2019]](https://arxiv.org/abs/1904.04514) - [ ]
