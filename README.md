@@ -37,7 +37,7 @@ Click on the checkmarks to go to project directories.
 - [MobileNet [2017]](https://arxiv.org/abs/1704.04861) - [✅](./Architectures/MobileNet)
 - [ShuffleNet [2017]](https://arxiv.org/abs/1707.01083) - [✅](./Architectures/ShuffleNet)
 - [Residual Attention Network [2017]](https://arxiv.org/abs/1704.06904) - [✅](./Architectures/ResidualAttentionNetwork)
-- [MobileNetV2 [2018]](https://arxiv.org/abs/1801.04381) - []
+- [MobileNetV2 [2018]](https://arxiv.org/abs/1801.04381) - [✅](./Architectures/MobileNetV2)
 - [EfficientNet [2019]](https://arxiv.org/abs/1905.11946) - [ ]
 - [RegNet [2020]](https://arxiv.org/abs/2003.13678) - [ ]
 - [ConvNet [2020]](https://arxiv.org/abs/2001.06268) - [ ]
