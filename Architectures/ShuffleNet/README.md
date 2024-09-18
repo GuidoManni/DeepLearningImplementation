@@ -8,11 +8,11 @@ For a comprehensive understanding of the paper and its contributions, please ref
 
 ## Major Contributions
 The major contributions of the paper include:
-1. Introduction of the ShuffleNet architecture, which uses depthwise separable convolutions as its core building block.
-2. Proposal of two hyperparameters - width multiplier and resolution multiplier - that allow for easy adjustment of the model size and computational requirements.
-3. Extensive experiments demonstrating the effectiveness of ShuffleNets across various tasks and applications, including image classification, object detection, and face attribute detection.
-4. Comparison with other popular models, showing that ShuffleNets can achieve comparable accuracy with significantly reduced computational cost and model size.
-
+1. Pointwise Group Convolutions: The authors introduce the use of grouped convolutions for 1x1 layers, significantly reducing computational cost.
+2. Channel Shuffle Operation: To overcome the limitations of grouped convolutions, they propose a channel shuffle operation that enables information flow across feature channels from different groups.
+3. ShuffleNet Unit: Building on these innovations, they design a new basic unit for CNN architectures that is both highly efficient and maintains strong performance.
+4. Comprehensive Experiments: The paper presents extensive comparisons with other architectures across various computational complexities, demonstrating ShuffleNet's superior performance.
+5. Real-world Performance: Unlike many papers that focus solely on theoretical complexity, the authors evaluate actual inference time on mobile devices, providing practical insights for deployment.
 ## Architecture Scheme
 Below a schematic representation of the ShuffleNet units that are used in the architecture:
 ![Image](./src/shuffleblock_no_stride.png)**ShuffleNet Unit without Stride**
