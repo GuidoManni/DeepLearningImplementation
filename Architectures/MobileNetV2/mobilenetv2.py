@@ -35,10 +35,14 @@ class MobileNetV2(nn.Module):
             BottleneckResidualBlock(in_channels=160, out_channels=160, stride=1, expansion_factor=expansion_factor)
         )
 
+        self.bottleneck_7 = nn.Sequential(
+            BottleneckResidualBlock(in_channels=160, out_channels=320, stride=1, expansion_factor=expansion_factor)
+        )
+
 
         # This does not follow the original implementation but it does not really matter
         self.output_layer = nn.Sequential(
-            ConvBlock(in_channels=160, out_channels=1280, kernel_size=1, stride=1),
+            ConvBlock(in_channels=320, out_channels=1280, kernel_size=1, stride=1),
             nn.AdaptiveAvgPool2d(1),
             nn.Flatten(),
             nn.Linear(1280, num_classes)
@@ -46,16 +50,21 @@ class MobileNetV2(nn.Module):
 
     def forward(self, x):
         x = self.input_layer(x)
+        print(x.shape)
         x = self.bottleneck_1(x)
+        print(x.shape)
         x = self.bottleneck_2(x)
         x = self.bottleneck_3(x)
         x = self.bottleneck_4(x)
         x = self.bottleneck_5(x)
         x = self.bottleneck_6(x)
+        x = self.bottleneck_7(x)
         x = self.output_layer(x)
 
         return x
 
+
+from torchvision.models import mobilenet_v2
 if __name__ == '__main__':
     model = MobileNetV2(in_channels=3, num_classes=1000)
     summary(model, (3, 224, 224))

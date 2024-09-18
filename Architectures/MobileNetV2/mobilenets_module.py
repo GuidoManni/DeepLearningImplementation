@@ -26,41 +26,57 @@ class DepthwiseSeprableConv2d(nn.Module):
         return x
 
 
-class ConvBlock(nn.Module):
-    def __init__(self, in_channels, out_channels, kernel_size, stride=1, padding=0, linear=False):
-        super(ConvBlock, self).__init__()
-        self.linear = linear
-
-        self.conv_block = nn.Sequential(
-            nn.Conv2d(in_channels=in_channels, out_channels=out_channels, kernel_size=kernel_size, stride=stride, padding=padding),
-            nn.BatchNorm2d(out_channels),
-        )
-
-    def forward(self, x):
-        x = self.conv_block(x)
-        if not self.linear:
-            x = nn.ReLU()(x)
-        return x
-
-
-
 class BottleneckResidualBlock(nn.Module):
-    def __init__(self, in_channels, out_channels, stride=1, expansion_factor=6):
+    def __init__(self, in_channels, out_channels, kernel_size=3, stride=1, expansion_factor=6):
         super(BottleneckResidualBlock, self).__init__()
         self.stride = stride
+        expanded_channels = in_channels * expansion_factor
 
-        self.bot_res_block = nn.Sequential(
-            ConvBlock(in_channels=in_channels, out_channels=(in_channels * expansion_factor), kernel_size=1, linear=False),
-            DepthwiseSeprableConv2d(in_channels=(in_channels * expansion_factor), out_channels=(in_channels * expansion_factor), kernel_size=3, stride=stride),
-            ConvBlock(in_channels=(in_channels * expansion_factor), out_channels=out_channels, kernel_size=1, linear=True)
-        )
+        layers = []
+        # Expansion phase
+        if expansion_factor != 1:
+            layers.extend([
+                nn.Conv2d(in_channels, expanded_channels, 1, bias=False),
+                nn.BatchNorm2d(expanded_channels),
+                nn.ReLU6(inplace=True)
+            ])
 
-        self.residual = nn.Sequential()
-        if stride != 1 or in_channels != out_channels:
-            self.residual = ConvBlock(in_channels=in_channels, out_channels=out_channels, kernel_size=1, linear=True)
+        # Depthwise phase
+        layers.extend([
+            nn.Conv2d(expanded_channels, expanded_channels, kernel_size, stride=stride,
+                      padding=kernel_size // 2, groups=expanded_channels, bias=False),
+            nn.BatchNorm2d(expanded_channels),
+            nn.ReLU6(inplace=True)
+        ])
+
+        # Projection phase
+        layers.extend([
+            nn.Conv2d(expanded_channels, out_channels, 1, bias=False),
+            nn.BatchNorm2d(out_channels)
+        ])
+
+        self.conv = nn.Sequential(*layers)
+        self.use_residual = in_channels == out_channels and stride == 1
+
     def forward(self, x):
-        x = self.bot_res_block(x)
-        if self.residual == 1:
-            x += self.residual(x)
+        if self.use_residual:
+            return x + self.conv(x)
+        else:
+            return self.conv(x)
+
+
+class ConvBlock(nn.Module):
+    def __init__(self, in_channels, out_channels, kernel_size, stride=1, padding=0):
+        super(ConvBlock, self).__init__()
+        self.conv = nn.Conv2d(in_channels, out_channels, kernel_size, stride, padding, bias=False)
+        self.bn = nn.BatchNorm2d(out_channels)
+        self.relu = nn.ReLU6(inplace=True)
+
+    def forward(self, x):
+        x = self.conv(x)
+        x = self.bn(x)
+        x = self.relu(x)
         return x
+
+
 
