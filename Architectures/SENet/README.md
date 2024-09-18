@@ -15,7 +15,8 @@ The major contributions of the paper include:
 5. Winning the ILSVRC 2017 classification competition, showcasing the practical impact of the proposed method.
 
 ## Architecture Scheme
-Below a schematic representation of the SENet block that is the main contribution of this paper
+Below a schematic representation of the SENet block that is the main contribution of this paper 
+
 ![Image](./src/SENet_Block.png)
 
 
