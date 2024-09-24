@@ -16,39 +16,47 @@ class SENet(nn.Module):
 
         self.conv2_x = nn.Sequential(
             ResidualBlock(in_channels=64, out_channels_bottleneck=64, out_channels=256, stride=1),
+            SEBlock(in_feature=256, reduction=reduction),
             ResidualBlock(in_channels=256, out_channels_bottleneck=64, out_channels=256, stride=1),
+            SEBlock(in_feature=256, reduction=reduction),
             ResidualBlock(in_channels=256, out_channels_bottleneck=64, out_channels=256, stride=1),
+            SEBlock(in_feature=256, reduction=reduction),
         )
 
-        self.seblock1 = SEBlock(in_feature=256, reduction=reduction)
+
 
         conv_3x_list = []
-        for i in range(8):
+        for i in range(4):
             if i == 0:
                 conv_3x_list.append(ResidualBlock(in_channels=256, out_channels_bottleneck=128, out_channels=512, stride=2))
             else:
                 conv_3x_list.append(ResidualBlock(in_channels=512, out_channels_bottleneck=128, out_channels=512, stride=1))
+
+            conv_3x_list.append(SEBlock(in_feature=512, reduction=reduction))
         self.conv3_x = nn.Sequential(*conv_3x_list)
 
-        self.seblock2 = SEBlock(in_feature=512, reduction=reduction)
 
         conv_4x_list = []
-        for i in range(36):
+        for i in range(6):
             if i == 0:
                 conv_4x_list.append(ResidualBlock(in_channels=512, out_channels_bottleneck=256, out_channels=1024, stride=2))
             else:
                 conv_4x_list.append(ResidualBlock(in_channels=1024, out_channels_bottleneck=256, out_channels=1024, stride=1))
+
+            conv_4x_list.append(SEBlock(in_feature=1024, reduction=reduction))
         self.conv4_x = nn.Sequential(*conv_4x_list)
 
-        self.seblock3 = SEBlock(in_feature=1024, reduction=reduction)
 
         self.conv5_x = nn.Sequential(
             ResidualBlock(in_channels=1024, out_channels_bottleneck=512, out_channels=2048, stride=2),
+            SEBlock(in_feature=2048, reduction=reduction),
             ResidualBlock(in_channels=2048, out_channels_bottleneck=512, out_channels=2048, stride=1),
+            SEBlock(in_feature=2048, reduction=reduction),
             ResidualBlock(in_channels=2048, out_channels_bottleneck=512, out_channels=2048, stride=1),
+            SEBlock(in_feature=2048, reduction=reduction),
         )
 
-        self.seblock4 = SEBlock(in_feature=2048, reduction=reduction)
+
 
         self.output_layer = nn.Sequential(
             nn.AdaptiveAvgPool2d((1, 1)),
@@ -59,13 +67,13 @@ class SENet(nn.Module):
     def forward(self, x):
         x = self.input_layers(x)
         x = self.conv2_x(x)
-        x = self.seblock1(x)
+
         x = self.conv3_x(x)
-        x = self.seblock2(x)
+
         x = self.conv4_x(x)
-        x = self.seblock3(x)
+
         x = self.conv5_x(x)
-        x = self.seblock4(x)
+
         x = self.output_layer(x)
         return x
 
