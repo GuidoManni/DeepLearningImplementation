@@ -49,7 +49,7 @@ Click on the checkmarks to go to project directories.
 ### Semantic Segmentation
 - [FCN [2014]](https://arxiv.org/abs/1411.4038) - [ ]
 - [SegNet [2015]](https://arxiv.org/abs/1511.00561) - [ ]
-- [UNet [2015]](https://arxiv.org/abs/1505.04597) - [ ]
+- [UNet [2015]](https://arxiv.org/abs/1505.04597) - [✅](Semantic%20Segmentation/UNet/)
 - [PSPNet [2016]](https://arxiv.org/abs/1612.01105) - [ ]
 - [DeepLab [2016]](https://arxiv.org/abs/1606.00915) - [ ]
 - [ENet [2016]](https://arxiv.org/abs/1606.02147) - [ ]
