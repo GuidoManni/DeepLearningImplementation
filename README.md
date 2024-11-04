@@ -56,7 +56,7 @@ Click on the checkmarks to go to project directories.
 - [Mask R-CNN [2017]](https://arxiv.org/abs/1703.06870) - [ ]
 - [DeepLabV3 [2017]](https://arxiv.org/abs/1706.05587) - [ ]
 - [ICNet [2018]](https://arxiv.org/abs/1704.08545) - [ ]
-- [Attention Unet [2018]] (https://arxiv.org/abs/1804.03999)
+- [Attention Unet [2018]](https://arxiv.org/abs/1804.03999)
 - [HRNet [2019]](https://arxiv.org/abs/1904.04514) - [ ]
 - [OCRNet [2019]](https://arxiv.org/abs/1909.11065) - [ ]
 - [U-Net++ [2019]](https://arxiv.org/abs/1912.05074) - [ ]
