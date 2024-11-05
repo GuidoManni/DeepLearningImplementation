@@ -23,5 +23,5 @@ The following results were reproduced as per the methodology described in the pa
 - ...
 
 ## References
-- [Original Paper](https://arxiv.org/abs/1505.04597)
+- [Original Paper](https://arxiv.org/abs/1912.05074)
 - [Detailed Blog Post]()
