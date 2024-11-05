@@ -57,7 +57,6 @@ class ExpandingPath(nn.Module):
 
     def forward(self, output_features):
         [flv1, flv2, flv3, flv4, brdout] = output_features
-        print(brdout.shape)
         x = self.up1(brdout)
         x = self.cc(flv4, x)
         x = self.fourth_level(x)
