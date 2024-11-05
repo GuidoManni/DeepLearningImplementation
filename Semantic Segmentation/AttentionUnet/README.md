@@ -1,16 +1,16 @@
 # [Attention UNet]
 
 ## Overview
-This repository contains the implementation of AlexNet. Below you will find detailed information and resources related to this architecture.
+This repository contains the implementation of the Attention UNet. Below you will find detailed information and resources related to this architecture.
 
-## Detailed Explanation
+## Detailed Explanation - TBD
 For a comprehensive understanding of the paper and its contributions, please refer to the [detailed blog post]().
 
-## Major Contributions
+## Major Contributions - TBD
 The major contributions of the paper include:
 
 
-## Architecture Scheme
+## Architecture Scheme - TBD
 Below is a schematic representation of the architecture:
 
 ![Architecture Scheme]()
