@@ -59,7 +59,7 @@ Click on the checkmarks to go to project directories.
 - [Attention Unet [2018]](https://arxiv.org/abs/1804.03999) - [✅](Semantic%20Segmentation/AttentionUnet/)
 - [HRNet [2019]](https://arxiv.org/abs/1904.04514) - [ ]
 - [OCRNet [2019]](https://arxiv.org/abs/1909.11065) - [ ]
-- [U-Net++ [2019]](https://arxiv.org/abs/1912.05074) - [ ]
+- [U-Net++ [2019]](https://arxiv.org/abs/1912.05074) - [✅](Semantic%20Segmentation/UNet++)
 - [SegFormer [2021]](https://arxiv.org/abs/2105.15203) - [ ]
 - [Mask2Former [2022]](https://arxiv.org/abs/2204.01697) - [ ]
 
@@ -103,6 +103,10 @@ Click on the checkmarks to go to project directories.
 - [Occupancy Networks [2018]](https://arxiv.org/abs/1812.03828) - [ ]
 - [DeepSDF [2019]](https://arxiv.org/abs/1901.05103) - [ ]
 - [NeRF [2020]](https://arxiv.org/abs/2003.08934) - [ ]
+
+### Attention Mechanism
+- [Residual Attention Network [2017]](https://arxiv.org/abs/1704.06904) - [✅](./Architectures/ResidualAttentionNetwork)
+- [Attention Unet [2018]](https://arxiv.org/abs/1804.03999) - [✅](Semantic%20Segmentation/AttentionUnet/)
 
 
 ## Project Phases
