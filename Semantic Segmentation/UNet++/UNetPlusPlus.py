@@ -92,7 +92,7 @@ class ExpandingPath(nn.Module):
         # Level 4 - Deepest decoder level
         x3_1 = self.up1(x4_0)  # Upsample bridge
         x3_1 = self.cc(x3_0, x4_0)  # Skip connection x3_0 -> x4_0
-        x3_1 = self.fourth_level(x4_0)  # Conv operations
+        x3_1 = self.fourth_level(x3_1)  # Conv operations
 
         # Level 3: 3 possible paths
         # Path 1:
