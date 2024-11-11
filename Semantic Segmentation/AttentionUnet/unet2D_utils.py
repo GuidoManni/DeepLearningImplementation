@@ -1,7 +1,6 @@
 import torch
 import torch.nn as nn
 import torch.nn.functional as F
-from poetry.core.masonry.utils.module import Module
 
 
 def crop_tensor(tensor, target_tensor):
