@@ -105,8 +105,11 @@ Click on the checkmarks to go to project directories.
 - [NeRF [2020]](https://arxiv.org/abs/2003.08934) - [ ]
 
 ### Attention Mechanism
+- [SENet [2017]](https://arxiv.org/abs/1709.01507) - [✅](./Architectures/SENet)
 - [Residual Attention Network [2017]](https://arxiv.org/abs/1704.06904) - [✅](./Architectures/ResidualAttentionNetwork)
 - [Attention Unet [2018]](https://arxiv.org/abs/1804.03999) - [✅](Semantic%20Segmentation/AttentionUnet/)
+- [CBAM [2018]](https://arxiv.org/abs/1807.06521) - [✅](./Attention%20Mechanism/CBAM)
+
 
 
 ## Project Phases
