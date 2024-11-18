@@ -10,7 +10,7 @@ This repository contains the implementation of CBAM. Below you will find detaile
 ## Architecture Scheme (TBD)
 Below is a schematic representation of the architecture:
 
-![Architecture Scheme](https://github.com/GuidoManni/DeepLearningImplementation/blob/main/Architectures/ResNet/src/ResNet_building_block.png)
+![Architecture Scheme]()
 
 ## Reproduced Results (TBD)
 The following results were reproduced as per the methodology described in the paper:
