@@ -70,7 +70,7 @@ We prioritize clarity and understanding over optimization. Our implementations f
 - [ ] [YOLOv4 (2020)](https://arxiv.org/abs/2004.10934)
 
 ### Generative Adversarial Networks
-- [ ] [GAN (2014)](https://arxiv.org/abs/1406.2661)
+- [✅] [GAN (2014)](./Generative%20Adversarial%20Networks/GAN%20(2014)/)
 - [ ] [DCGAN (2015)](https://arxiv.org/abs/1511.06434)
 - [ ] [InfoGAN (2016)](https://arxiv.org/abs/1606.03657)
 - [ ] [Pix2Pix (2016)](https://arxiv.org/abs/1611.07004)
