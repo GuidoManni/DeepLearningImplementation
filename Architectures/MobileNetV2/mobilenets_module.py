@@ -3,7 +3,7 @@ import torch.nn as nn
 
 
 class DepthwiseSeprableConv2d(nn.Module):
-    def __init__(self, in_channels, out_channels, kernel_size, stride=1, padding=1):
+    def __init__(self, in_channels, out_channels, kernel_size, stride=1, padding='same'):
         '''
         A separable convolution block is a combination of depthwise convolution and pointwise convolution. This means
         that the input tensor is convolved with a kernel of size (kernel_size, kernel_size) and then the output of this
