@@ -40,6 +40,7 @@ We prioritize clarity and understanding over optimization. Our implementations f
 - [ ] [SwinTransformer (2021)](https://arxiv.org/pdf/2103.14030)
 - [ ] [MaxViT (2022)](https://arxiv.org/pdf/2204.01697)
 - [ ] [VisionLSTM (2024)](https://arxiv.org/pdf/2406.04303)
+- [ ] [RepVIT (2024)](https://arxiv.org/abs/2307.09283)
 
 ### Semantic Segmentation
 - [ ] [FCN (2014)](https://arxiv.org/abs/1411.4038)
