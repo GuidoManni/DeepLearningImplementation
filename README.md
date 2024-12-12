@@ -35,10 +35,11 @@ We prioritize clarity and understanding over optimization. Our implementations f
 - [✅] [MobileNetV2 (2018)](./Architectures/MobileNetV2)
 - [✅] [EfficientNet (2019)](./Architectures/EfficientNet)
 - [ ] [RegNet (2020)](https://arxiv.org/abs/2003.13678)
-- [ ] [ConvNet (2020)](https://arxiv.org/abs/2001.06268)
 - [ ] [VisionTransformer (2020)](https://arxiv.org/pdf/2010.11929)
 - [ ] [SwinTransformer (2021)](https://arxiv.org/pdf/2103.14030)
 - [ ] [MaxViT (2022)](https://arxiv.org/pdf/2204.01697)
+- [ ] [ConvNet (2022)](https://arxiv.org/abs/2201.03545)
+- [ ] [ConvNext V2 (2023)](https://arxiv.org/abs/2301.00808)
 - [ ] [RepVIT (2023)](https://arxiv.org/abs/2307.09283)
 - [ ] [VisionLSTM (2024)](https://arxiv.org/pdf/2406.04303)
 
