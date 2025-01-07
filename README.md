@@ -34,7 +34,6 @@ We prioritize clarity and understanding over optimization. Our implementations f
 - [✅] [Residual Attention Network (2017)](./Architectures/ResidualAttentionNetwork)
 - [✅] [MobileNetV2 (2018)](./Architectures/MobileNetV2)
 - [✅] [EfficientNet (2019)](./Architectures/EfficientNet)
-- [ ] [RegNet (2020)](https://arxiv.org/abs/2003.13678)
 - [ ] [VisionTransformer (2020)](https://arxiv.org/pdf/2010.11929)
 - [ ] [SwinTransformer (2021)](https://arxiv.org/pdf/2103.14030)
 - [ ] [MaxViT (2022)](https://arxiv.org/pdf/2204.01697)
