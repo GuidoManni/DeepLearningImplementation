@@ -34,7 +34,7 @@ We prioritize clarity and understanding over optimization. Our implementations f
 - [✅] [Residual Attention Network (2017)](./Architectures/ResidualAttentionNetwork)
 - [✅] [MobileNetV2 (2018)](./Architectures/MobileNetV2)
 - [✅] [EfficientNet (2019)](./Architectures/EfficientNet)
-- [ ] [VisionTransformer (2020)](https://arxiv.org/pdf/2010.11929)
+- [✅] [VisionTransformer (2020)](https://arxiv.org/pdf/2010.11929)
 - [ ] [DeepViT (2021)](https://arxiv.org/abs/2103.11886)
 - [ ] [Tokens-to-Token ViT (2021)](https://arxiv.org/abs/2103.11886)
 - [ ] [CCT (2021)](https://arxiv.org/abs/2103.11886)
