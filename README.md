@@ -35,6 +35,7 @@ We prioritize clarity and understanding over optimization. Our implementations f
 - [✅] [MobileNetV2 (2018)](./Architectures/MobileNetV2)
 - [✅] [EfficientNet (2019)](./Architectures/EfficientNet)
 - [✅] [VisionTransformer (2020)](https://arxiv.org/pdf/2010.11929)
+- [ ] [Fast Fourier Convolution (2020)](https://papers.nips.cc/paper_files/paper/2020/hash/2fd5d41ec6cfab47e32164d5624269b1-Abstract.html)
 - [ ] [DeepViT (2021)](https://arxiv.org/abs/2103.11886)
 - [ ] [Tokens-to-Token ViT (2021)](https://arxiv.org/abs/2103.11886)
 - [ ] [CCT (2021)](https://arxiv.org/abs/2103.11886)
