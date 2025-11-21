@@ -34,8 +34,8 @@ We prioritize clarity and understanding over optimization. Our implementations f
 - [✅] [Residual Attention Network (2017)](./Architectures/ResidualAttentionNetwork)
 - [✅] [MobileNetV2 (2018)](./Architectures/MobileNetV2)
 - [✅] [EfficientNet (2019)](./Architectures/EfficientNet)
-- [✅] [VisionTransformer (2020)](https://arxiv.org/pdf/2010.11929)
-- [ ] [Fast Fourier Convolution (2020)](https://papers.nips.cc/paper_files/paper/2020/hash/2fd5d41ec6cfab47e32164d5624269b1-Abstract.html)
+- [✅] [VisionTransformer (2020)](./Architectures/VisionTransformer/)
+- [✅] [FFC - Fast Fourier Convolution (2020)](./Architectures/FFC/)
 - [ ] [DeepViT (2021)](https://arxiv.org/abs/2103.11886)
 - [ ] [Tokens-to-Token ViT (2021)](https://arxiv.org/abs/2103.11886)
 - [ ] [CCT (2021)](https://arxiv.org/abs/2103.11886)
@@ -66,6 +66,7 @@ We prioritize clarity and understanding over optimization. Our implementations f
 - [ ] [HRNet (2019)](https://arxiv.org/abs/1904.04514)
 - [ ] [OCRNet (2019)](https://arxiv.org/abs/1909.11065)
 - [✅] [U-Net++ (2019)](./Semantic%20Segmentation/UNet++/)
+- [ ] [Dual Attention Network (2019)](https://arxiv.org/abs/1809.02983)
 - [ ] [SegFormer (2021)](https://arxiv.org/abs/2105.15203)
 - [ ] [Mask2Former (2022)](https://arxiv.org/abs/2204.01697)
 
@@ -109,11 +110,17 @@ We prioritize clarity and understanding over optimization. Our implementations f
 - [ ] [DeepSDF (2019)](https://arxiv.org/abs/1901.05103)
 - [ ] [NeRF (2020)](https://arxiv.org/abs/2003.08934)
 
-### Attention Mechanism
+## Attention Mechanism
+### Pre-Transformer
 - [✅] [SENet (2017)](./Architectures/SENet)
 - [✅] [Residual Attention Network (2017)](./Architectures/ResidualAttentionNetwork)
 - [✅] [Attention Unet (2018)](./Semantic%20Segmentation/AttentionUnet/)
 - [✅] [CBAM (2018)](./Attention%20Mechanism/CBAM)
+- [ ] [Non-local neural networks (2018)](https://ieeexplore.ieee.org/document/8578911)
+- [ ] [Efficient Channel Attention (2020)](https://arxiv.org/abs/1910.03151)
+
+### Transformer-based
+
 
 ## 🚀 Getting Started
 
